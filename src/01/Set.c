@@ -3,7 +3,6 @@
 //
 
 #include <assert.h>
-#include "new.h"
 #include "Set.h"
 #include "Object.h"
 
