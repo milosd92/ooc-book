@@ -5,6 +5,8 @@
 #ifndef OOC_BOOK_SET_H
 #define OOC_BOOK_SET_H
 
+extern const void *Set;
+
 /**
  * Adds the element to set.
  * Returns the added element or already present element in a set.
