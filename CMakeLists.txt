@@ -3,5 +3,5 @@ project(ooc_book)
 
 set(CMAKE_C_STANDARD 99)
 
-set(SOURCE_FILES src/01/main.c src/01/Set.h src/01/new.h src/01/Object.h src/01/Set.c)
+set(SOURCE_FILES src/01/main.c src/01/Set.h src/01/new.h src/01/Object.h src/01/Set.c src/01/Bag.c)
 add_executable(ooc_book ${SOURCE_FILES})
