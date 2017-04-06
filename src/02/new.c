@@ -38,6 +38,15 @@ void delete(void *self)
     free(self);
 }
 
+void *clone(const void *self)
+{
+    const struct Class *const *cp = self;
+
+    assert(self && *cp && (*cp)->clone);
+
+    return (*cp)->clone(self);
+}
+
 int differ(const void *self, const void *other)
 {
     const struct Class *const *cp = self;

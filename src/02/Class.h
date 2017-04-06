@@ -17,7 +17,7 @@ struct Class {
 
     void *(*clone)(const void *self);
 
-    int *(*differ)(const void *self, const void *other);
+    int (*differ)(const void *self, const void *other);
 };
 
 #endif //OOC_BOOK_CLASS_H
